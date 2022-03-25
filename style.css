@@ -1,0 +1,88 @@
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.main-element-add {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.container-list {
+	border: 1px solid black;
+	margin: 10px;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.add-button {
+	border: 2px solid black;
+	background: black;
+	color: white;
+	border-radius: 5px;
+	transition: .3s;
+}
+
+.add-button:hover {
+	background: white;
+	color: black;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+.button-delete-tasks {
+	margin: 20px 0;
+	border: 2px solid black;
+	background: black;
+	color: white;
+	border-radius: 5px;
+	transition: .3s;
+}
+
+.button-delete-tasks:hover {
+	background: white;
+	color: black;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+.text-task {
+	font-size: 18px;
+	color: black;
+	margin: 0 20px;
+}
+
+.done-text {
+	text-decoration: line-through;
+	color: green;
+}
+
+.icons {
+	padding: 5px;
+	width: 25px;
+}
+
+.icons-hidden {
+	display: none	;
+}
+
+.noEdit {
+	display: none;
+	width: auto;
+}
+
+.edit {
+	display: block;
+	visibility: visible;
+	margin: 0 20px;
+	width: 20%;
+}
+
+.edit-text {
+	display: none;
+}
+
